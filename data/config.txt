@@ -1,0 +1,1 @@
+clients C:\Users\Светлана\Documents\Visual Studio 2015\Projects\network_game_server1\data\clients.txt

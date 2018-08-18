@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\network">
+      <UniqueIdentifier>{acfcf9cc-73dc-4c40-9ffc-47c8ffc892a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\network">
+      <UniqueIdentifier>{3a31ebdb-dfee-4ecc-bf64-b06af28d5f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\main">
+      <UniqueIdentifier>{1370d3a8-afd4-46e5-99fc-2bda2ea7d75a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\common">
+      <UniqueIdentifier>{41e0b782-d3e8-44ad-a02c-5731600bf384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\common">
+      <UniqueIdentifier>{7ca98b61-92d4-4ac0-8f23-8d4055768e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\event">
+      <UniqueIdentifier>{515e7e6e-5c18-4b4a-b794-099852704dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\event">
+      <UniqueIdentifier>{fef07cfe-0a2c-4316-9d7b-3a82345fcd08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\model">
+      <UniqueIdentifier>{c764a8a1-3407-418a-831d-7e5ca93b3e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game">
+      <UniqueIdentifier>{d8415b34-9a77-4f97-9f5c-33ca5432b35e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\game">
+      <UniqueIdentifier>{45fecfc3-582d-4173-8f9a-c155837e959e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\file">
+      <UniqueIdentifier>{950ce4ad-c00f-4692-aef2-0deee111a4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\file">
+      <UniqueIdentifier>{4fda14e8-5e7e-4c8a-b46d-7ce967dbe73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\message">
+      <UniqueIdentifier>{443c114a-61dd-4566-8804-b1ff2c656d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\message">
+      <UniqueIdentifier>{bc94c374-4ee2-4928-a776-252eb7c3a96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\common\observable">
+      <UniqueIdentifier>{ad288087-977c-4833-bf31-5794e740b442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\common\observable">
+      <UniqueIdentifier>{d8bbd731-ed24-4d1a-957f-788c090ec5ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NetworkBase.h">
+      <Filter>Заголовочные файлы\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Заголовочные файлы\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Заголовочные файлы\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Заголовочные файлы\event</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Заголовочные файлы\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Заголовочные файлы\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamer.h">
+      <Filter>Заголовочные файлы\game</Filter>
+    </ClInclude>
+    <ClInclude Include="SteepOneGamer.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchGame.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncFile.h">
+      <Filter>Заголовочные файлы\file</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientService.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Заголовочные файлы\file</Filter>
+    </ClInclude>
+    <ClInclude Include="Dealer.h">
+      <Filter>Заголовочные файлы\game</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkMessage.h">
+      <Filter>Заголовочные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignNetworkMessage.h">
+      <Filter>Заголовочные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseNetworkMessage.h">
+      <Filter>Заголовочные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkMessageFactory.h">
+      <Filter>Заголовочные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueNetworkMessage.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Observable.h">
+      <Filter>Заголовочные файлы\common\observable</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Заголовочные файлы\common</Filter>
+    </ClInclude>
+    <ClInclude Include="FileObserver.h">
+      <Filter>Заголовочные файлы\file</Filter>
+    </ClInclude>
+    <ClInclude Include="FileObserverImpl.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NetworkBase.cpp">
+      <Filter>Файлы исходного кода\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Файлы исходного кода\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Файлы исходного кода\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Файлы исходного кода\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>Файлы исходного кода\event</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Файлы исходного кода\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Файлы исходного кода\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamer.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SteepOneGamer.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncFile.cpp">
+      <Filter>Файлы исходного кода\file</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Файлы исходного кода\file</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientService.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Dealer.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchGame.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignNetworkMessage.cpp">
+      <Filter>Файлы исходного кода\message</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseNetworkMessage.cpp">
+      <Filter>Файлы исходного кода\message</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkMessageFactory.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueNetworkMessage.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Observable.cpp">
+      <Filter>Файлы исходного кода\common\observable</Filter>
+    </ClCompile>
+    <ClCompile Include="FileObserverImpl.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
