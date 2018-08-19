@@ -16,5 +16,6 @@ public:
 	virtual char* getMessageFromNetwork() = 0;
 	virtual int getSizeMessageFromNetwork() = 0;
 	virtual NetworkMessage* getNetworkMessage(int16_t type, char* data) = 0;
+	virtual int getType() = 0;
 };
 

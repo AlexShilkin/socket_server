@@ -81,6 +81,16 @@ unsigned int ComputationThread() {
 	for (;;) {
 		if (WAIT_OBJECT_0 == WaitForSingleObject(eventPushMessageInQueue, 0)) {
 			NetworkMessage* networkNessage = queueNetworkMessage->pop();
+			switch (networkNessage->getType())
+			{
+			case NETWORK_MESSAGE_TYPE_ASSING: {
+				Client client = Client();
+				AssignNetworkMessage *assignNetworkMessage = (AssignNetworkMessage*)networkNessage;
+				break;
+			}
+			default:
+				break;
+			}
 			ResetEvent(eventPushMessageInQueue);
 		}
 
@@ -99,9 +109,9 @@ unsigned int ReceiveThread() {
 			break;
 		}
 		// Опрашивать сокеты pool методом
-		// Устанавливаем задержку 10 мс
+		// Устанавливаем задержку 0 мс
 		if (countAcceptClient > 0) {
-			int eventPoll = WSAPoll(pollSockets, countAcceptClient, 10);
+			int eventPoll = WSAPoll(pollSockets, countAcceptClient, 0);
 			if (eventPoll == -1) {
 				int error = GetLastError();
 				printf("WSAPoll() error: %d", error);
