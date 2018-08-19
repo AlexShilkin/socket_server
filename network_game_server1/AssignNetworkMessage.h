@@ -2,7 +2,7 @@
 #include "Message.h"
 #include "BaseNetworkMessage.h"
 
-#define FLAG_ASSING_NETWORK_MESSAGE 1
+#define NETWORK_MESSAGE_TYPE_ASSING 1
 #define SERVER_ID_HOST 0
 
 
@@ -19,5 +19,6 @@ public:
 	char* getMessageFromNetwork();
 	int getSizeMessageFromNetwork();
 	NetworkMessage* getNetworkMessage(int16_t type, char* data);
+	int getType();
 };
 

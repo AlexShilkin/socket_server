@@ -23,7 +23,7 @@ AssignNetworkMessage::AssignNetworkMessage(int16_t idClient)
 		bufferReturn = new unsigned char[MESSAGE_MESSAGE_SIZE_HEADER + packSize];
 		packSize = pack(bufferReturn, maskType(),
 			(int16_t)MESSAGE_VERSION,
-			(int16_t)FLAG_ASSING_NETWORK_MESSAGE,
+			(int16_t)NETWORK_MESSAGE_TYPE_ASSING,
 			(int16_t)SERVER_ID_HOST,
 			(int32_t)sizeof(int16_t),
 			idClient);
@@ -63,5 +63,10 @@ NetworkMessage* AssignNetworkMessage::getNetworkMessage(int16_t type, char* data
 	unpack((unsigned char*)data, maskTypeData(), &clientId);
 	AssignNetworkMessage* assingNetworkMessage = new AssignNetworkMessage(clientId);
 	return assingNetworkMessage;
+}
+
+int AssignNetworkMessage::getType()
+{
+	return NETWORK_MESSAGE_TYPE_ASSING;
 }
 

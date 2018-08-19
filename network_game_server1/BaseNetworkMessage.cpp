@@ -72,3 +72,8 @@ NetworkMessage * BaseNetworkMessage::getNetworkMessage(int16_t type, char * data
 {
 	return nullptr;
 }
+
+int BaseNetworkMessage::getType()
+{
+	return 0;
+}

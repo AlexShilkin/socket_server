@@ -2,6 +2,7 @@
 #include "NetworkMessage.h"
 #include "AssignNetworkMessage.h"
 
+#define NETWORK_MESSAGE_TYPE_INCORRECT = 0;
 #define NETWORK_MESSAGE_TYPE_ASSING 1
 
 

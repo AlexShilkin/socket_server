@@ -4,13 +4,13 @@
 
 ClientService::ClientService()
 {
-
+	this->clients = std::vector<Client>();
 }
 
 
 ClientService::~ClientService()
 {
-	
+	this->clients.clear();
 }
 
 std::vector<Client> ClientService::getClients()
