@@ -21,4 +21,3 @@ public:
 	NetworkMessage* getNetworkMessage(int16_t type, char* data);
 	int getType();
 };
-
